@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FaviCraft
 
-## Getting Started
+A modern favicon generator that creates all the favicon sizes you need for your website in seconds.
 
-First, run the development server:
+![FaviCraft Preview](./public/preview.png)
+
+## Features
+
+- **All Standard Sizes** - Generate 16x16, 32x32, 48x48, 96x96, 144x144, 192x192, 512x512px favicons
+- **Apple Touch Icons** - Complete support for iOS devices and iPads
+- **PWA Ready** - Android Chrome icons and manifest support
+- **Multiple Formats** - PNG and ICO formats included
+- **Ready HTML Code** - Copy-paste HTML with all required meta tags
+- **Batch Download** - Download all files at once or individually
+
+## Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/vinodjangid07/FaviCraft.git
+
+# Navigate to project directory
+cd FaviCraft
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to start generating favicons.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Upload** any image (PNG, JPG, SVG, WebP)
+2. **Preview** generated favicons in all sizes
+3. **Download** all files or select specific sizes
+4. **Copy** the HTML code to your website's `<head>` section
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Canvas API** - Image processing
+- **Lucide React** - Icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Generated Files
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `favicon.ico` - Legacy browser support
+- `favicon-16x16.png` to `favicon-512x512.png` - Standard sizes
+- `apple-touch-icon-*.png` - iOS device support
+- `android-chrome-*.png` - Android home screen icons
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+MIT License - feel free to use this project for personal or commercial purposes.
+
+## Author
+
+Built by [Vinod Jangid](https://github.com/vinodjangid07)
